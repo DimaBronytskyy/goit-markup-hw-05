@@ -801,17 +801,17 @@ img {
   margin-right: 8px;
 }
 
-.form-checkbox:checked + .form-checkbox-label .checkbox-label-icon {
+.form-checkbox:checked + .form-checkbox .checkbox-label-icon {
   background-color: var(--ocean, #404bbf);
   border: none;
   fill: var(--cloud, #f4f4fd);
 }
 
-.form-checkbox:focus + .form-checkbox-label .checkbox-label-icon {
+.form-checkbox:focus + .form-checkbox .checkbox-label-icon {
   border-color: var(--ocean, #404bbf);
 }
 
-.form-checkbox:hover + .form-checkbox-label .checkbox-label-icon {
+.form-checkbox:hover + .form-checkbox .checkbox-label-icon {
   border-color: var(--ocean, #404bbf);
 }
 
